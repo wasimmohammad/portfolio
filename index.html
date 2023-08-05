@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website Using HTML, CSS and JavaScript</title>
+    <link rel="icon" type="image/png" href="/images/logo.png">
+    <!-- MONTSERRAT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- ICONSCOUT CDN -->
+    <script src="https://kit.fontawesome.com/d683f1c197.js" crossorigin="anonymous"></script>
+
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="./style.css?v=1.0">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="http://www.wasimakram.in" target="_blank">
+              <img class="logo" src="./images/logo.png" alt="WasimAkram"/>
+            </a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#Techstack">Techstack</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Let's Talk</a></li>
+            </ul>
+            <button  id="menu-btn"><span class="material-icons-sharp"><i class="fa-solid fa-bars fa-xl"></i></span></button>
+            <button  id="close-btn"><span class="material-icons-sharp"><i class="fa-solid fa-xmark fa-xl"></i></span></button>
+        </div>
+    </nav>
+    <!-- ============================ END OF NAVBAR ==========================-->
+
+
+
+
+    <section class="landing">
+        <div class="container">
+            <div class="info">
+                <h1>An IT Recruiter with a passion for Web Development</h1>
+                <h3>Hi, I'm Wasim Akram Mohammad</h3>
+                <p>Experienced Talent Acquisition professional transitioning into tech-side job roles within the IT industry. As
+                  an observant and intuitive problem-solver, I have honed my skills as a Front-End Developer specializing in
+                  the MERN stack. My passion lies in creating user-centric products that effectively translate user
+                  requirements into technical solutions.
+                </p>
+                <a href="#contact" class="btn btn-primary">Let's Talk</a>
+            </div>
+
+            <div class="profile-area">
+                <div class="outer-circle">
+                    <span class="material-icons-sharp"><i class="icon fa-solid fa-code"></i></span>
+                    <span class="material-icons-sharp"><i class="icon fa-solid fa-code-compare"></i></span>
+                    <span class="material-icons-sharp"><i class="icon fa-solid fa-bug"></i></span>
+                    <span class="material-icons-sharp"><i class="icon fa-solid fa-file-lines"></i></span>
+                </div>
+                <div class="inner-circle">
+                    <img src="./images/profile.webp" alt="wasim"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================ END OF LANDING ============================-->
+
+
+
+    <section class="techstack" id="Techstack">
+      <h1>My Tech Stack</h1>
+      <div class="container">
+          <div class="icon-card">
+              <div class="logo-card">
+                <img class="icon-size" src="./icons/html.png" alt="HTML" />
+                <p class="icon-caption font-style">HTML</p>
+              </div>
+              <div class="logo-card">
+                <img class="icon-size" src="./icons/css.png" alt="HTML" />
+                <p class="icon-caption font-style">CSS</p>
+              </div>
+              <div class="logo-card">
+                <img class="icon-size" src="./icons/javascript.png" alt="HTML" />
+                <p class="icon-caption font-style">JAVASCRIPT</p>
+              </div>
+              <div class="logo-card">
+                <img class="icon-size" src="./icons/python.png" alt="HTML" />
+                <p class="icon-caption font-style">PYTHON</p>
+              </div>
+              <div class="logo-card">
+                <img class="icon-size" src="./icons/github.png" alt="HTML" />
+                <p class="icon-caption font-style">GITHUB</p>
+              </div>
+              <div class="logo-card">
+                <img class="icon-size" src="./icons/nodejs.png" alt="HTML" />
+                <p class="icon-caption font-style">NodeJS</p>
+              </div>
+              <div class="logo-card">
+                <img class="icon-size" src="./icons/sql.png" alt="HTML" />
+                <p class="icon-caption font-style">SQL</p>
+              </div>
+              <div class="logo-card">
+                <img class="icon-size" src="./icons/react.png" alt="HTML" />
+                <p class="icon-caption font-style">ReactJS</p>
+              </div>
+              <div class="logo-card">
+                <img class="icon-size" src="./icons/npm.png" alt="HTML" />
+                <p class="icon-caption font-style">NPM</p>
+              </div>
+              <div class="logo-card">
+                <img class="icon-size" src="./icons/git.png" alt="HTML" />
+                <p class="icon-caption font-style">GIT</p>
+              </div>
+              <div class="logo-card">
+                <img class="icon-size" src="./icons/docker.png" alt="HTML" />
+                <p class="icon-caption font-style">DOCKER</p>
+              </div>
+              <div class="logo-card">
+                <img class="icon-size" src="./icons/visual-studio-code.png" alt="HTML" />
+                <p class="icon-caption font-style">VS Code</p>
+              </div>    
+          </div>              
+      </div>
+  </section>
+  <!--==================================== END OF SKILLS ======================================-->
+
+
+    <section class="skills" id="skills">
+        <h1>Skills</h1>
+        <div class="container">
+              <div class="skill">
+      
+                <div class="head">
+                  <div class="left">
+                    <span class="material-icons-sharp"><i class="fa-solid fa-laptop-code"></i></span>
+                    <h4>Frontend Development</h4>
+                  </div>
+                  <span class="right">
+                    <i class="fa-solid fa-angle-down"></i>
+                  </span>
+                </div>
+      
+                <div class="items">
+                  <div class="item">
+                    <h5>HTML</h5>
+                    <div class="progress-area">
+                      <div class="progress-bar">
+                        <div class="progress"></div>
+                      </div>
+                      <h5>91%</h5>
+                    </div>
+                  </div>
+                  <!--  END OF ITEM -->
+      
+                  <div class="item">
+                    <h5>CSS</h5>
+                    <div class="progress-area">
+                      <div class="progress-bar">
+                        <div class="progress"></div>
+                      </div>
+                      <h5>88%</h5>
+                    </div>
+                  </div>
+                  <!--  END OF ITEM -->
+      
+                  <div class="item">
+                    <h5>Bootstrap</h5>
+                    <div class="progress-area">
+                      <div class="progress-bar">
+                        <div class="progress"></div>
+                      </div>
+                      <h5>92%</h5>
+                    </div>
+                  </div>
+                  <!--  END OF ITEM -->
+      
+                  <div class="item">
+                    <h5>JavaScript</h5>
+                    <div class="progress-area">
+                      <div class="progress-bar">
+                        <div class="progress"></div>
+                      </div>
+                      <h5>65%</h5>
+                    </div>
+                  </div>
+                  <!--  END OF ITEM -->
+      
+                  <div class="item">
+                    <h5>ReactJS</h5>
+                    <div class="progress-area">
+                      <div class="progress-bar">
+                        <div class="progress"></div>
+                      </div>
+                      <h5>43%</h5>
+                    </div>
+                  </div>
+                  <!--  END OF ITEM -->
+                </div>
+              </div>
+              <!---------------- END OF SKILL--------------->
+      
+              <div class="skill">
+                <div class="head">
+                  <div class="left">
+                    <span class="material-icons-sharp"><i class="fa-solid fa-server"></i></span>
+                    <h4>Backend Development</h4>
+                  </div>
+                  <span class="right">
+                    <i class="fa-solid fa-angle-down"></i>
+                  </span>
+                </div>
+                
+                <div class="items">
+      
+                  <div class="item2">
+                    <h5>Python</h5>
+                    <div class="progress-area">
+                      <div class="progress-bar">
+                        <div class="progress"></div>
+                      </div>
+                      <h5>82%</h5>
+                    </div>
+                  </div>
+                  <!--  END OF ITEM -->
+      
+                  <div class="item2">
+                    <h5>NodeJS</h5>
+                    <div class="progress-area">
+                      <div class="progress-bar">
+                        <div class="progress"></div>
+                      </div>
+                      <h5>89%</h5>
+                    </div>
+                  </div>
+                  <!--  END OF ITEM -->
+      
+                  <div class="item2">
+                    <h5>SQL</h5>
+                    <div class="progress-area">
+                      <div class="progress-bar">
+                        <div class="progress"></div>
+                      </div>
+                      <h5>79%</h5>
+                    </div>
+                  </div>
+                  <!--  END OF ITEM -->
+                </div>
+              </div>
+              <!-------------- END OF SKILL-------------->
+        </div>
+    </section>
+    <!--==================================== END OF SKILLS ======================================-->
+
+
+    <section class="services" id="services">
+        <h1>Services</h1>
+        <div class="container">
+            <div class="service">
+                <img src="./images/developer.png"/>
+                <h3>Website Development</h3>
+                <p>Passionate website designer offering creative and user-friendly solutions. Proficient in crafting responsive layouts and utilizing cutting-edge technologies. Committed to delivering visually stunning websites that drive results and enhance user engagement. Let me transform your vision into a captivating online presence that stands out from the crowd.</p>
+            </div>
+            <div class="service">
+                <img src="./images/recruiter.png"/>
+                <h3>Staff Augmentation in USA and INDIA</h3>
+                <p>Enhance your workforce with my staff augmentation services in the USA and India. I provide skilled professionals to seamlessly integrate into your team, boosting productivity and efficiency. From tech experts to industry specialists, I deliver the right talent to meet your unique needs, ensuring success for your projects.</p>
+            </div>
+            <div class="service">
+                <img src="./images/resume.png"/>
+                <h3>Resume Preparation</h3>
+                <p>Unlock your full potential with my expert resume preparation services. As a seasoned professional, I craft compelling and tailored resumes that showcase your unique strengths and accomplishments. With a keen eye for detail and a passion for excellence, I help you stand out from the competition and land your dream job.</p>
+            </div>
+        </div>
+    </section>
+    <!-- =============================== END OF SERVICES ===============================-->
+
+
+    <section class="recent-work" id="portfolio">
+        <div class="container">
+          <h4>My Recent Work</h4>
+          <h1>Here Are Some of My Most Recent Solo Projects</h1>
+          <div class="projects">
+            <div class="project">
+              <div class="thumbnail">
+                <img src="./images/work1.jpg" />
+              </div>
+              <h2>Todo List Web Application</h2>
+              <p>
+                The Todo Web Application is a simple and intuitive productivity tool designed to help users organize their tasks and manage their to-do lists effectively. Developed using HTML, CSS, and JavaScript, this web application provides a user-friendly interface that allows users to add and remove tasks easily.
+              </p>
+              <a href="https://todos.wasimakram.in/" target="_blank">
+                <button class="button"> Live Demo
+                </button>
+              </a>
+            </div>
+            <!-- END OF PROJECT -->
+  
+            <div class="project">
+              <div class="thumbnail">
+                <img src="./images/work2.jpg" />
+              </div>
+              <h2>Restaurant Website</h2>
+              <p>
+                The Restaurant Food Delivery Application is a user-friendly and visually appealing web application designed to provide a seamless food ordering and delivery experience to customers. Developed using HTML, CSS.
+              </p>
+              <a href="https://resto.wasimakram.in/" target="_blank">
+                <button class="button"> Live Demo
+                </button>
+              </a>
+            </div>
+            <!-- END OF PROJECT -->
+          </div>
+          <!-------------- END OF PROJECTS -------------->
+        </div>
+      </section>
+      <!--=========================== END OF RECENT WORK (PORTFOLIO) ==================================-->
+
+
+      <section class="contact" id="contact">
+        <div class="overlay">
+          <div class="container">
+            <h1>Let's Talk</h1>
+            <form action="https://formspree.io/f/xayvbwqb" method="POST">
+              <input type="text" name="Name" placeholder="Name" required>
+              <input type="email" name="Email" placeholder="Email" required>
+              <input type="text" name="Subject" placeholder="Subject" required>
+              <textarea name="Message" placeholder="Message" required></textarea>
+              <input type="submit" value="Submit" class="btn btn-primary">
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- ================================ END OF CONTACT ============================-->
+
+
+
+
+      <footer>
+        <div class="container">
+          <a href="http://www.wasimakram.in" target="_blank">
+            <img class="logo" src="./images/logo.png" alt="WasimAkram"/>
+          </a>
+          <ul>
+            <li><a href="#">Home</a></li>
+                <li><a href="#Techstack">Techstack</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Let's Talk</a></li>
+          </ul>
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/wasimmohammad/" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a>
+            <a href="https://wa.me/919494155700" target="_blank"><i class="fa-brands fa-whatsapp icon"></i></a>
+            <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram icon"></i></a>
+        </div>
+        </div>
+        <div class="copyright">
+          Copyright &copy; Mohammad Wasim Akram
+        </div>
+      </footer>
+
+      <!-- swiper js-->
+      <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+      <script src="./main.js"></script>
+</body>
+</html>
